@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: #93ccc5;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #3769ff;
+    color: white;
+}
+
+header h1 .Mihir {
+    color: #93ccc5;
+}
+
+header nav {
+    display: flex;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-flex;
+    margin-left: 25px;
+}
+
+a {
+    color: #363636;
+    text-decoration: none;
+}
+
+p {
+    color: #363636;
+    font-size: 16px;
+}
+
+.avatar {
+    border: thin #363636 solid;
+    display: flex;
+    flex-flow: column;
+    object-position: left top;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    main, nav {
+        flex-direction: column;
+    }
+}
