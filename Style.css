@@ -59,7 +59,6 @@ p {
     border: thin #363636 solid;
     display: flex;
     flex-flow: column;
-    object-position: left top;
     padding: 5px;
     max-width: 220px;
     margin: auto;
